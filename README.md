@@ -1,2 +1,0 @@
-# capstone-repo
-Capstone Project 
