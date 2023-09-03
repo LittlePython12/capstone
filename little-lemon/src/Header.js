@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from './Pictures/Lil Citrus.png';
 
 function Header() {
     return (
         <header>
-            <img src="C:\Users\adego\OneDrive\Pictures\Lil Citrus.png" alt="Little Lemon Logo" />
+            <img src={logo} alt="Little Lemon Logo" />
         </header>
     );
 }
