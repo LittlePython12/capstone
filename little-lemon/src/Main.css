@@ -1,0 +1,211 @@
+.main {
+    background-color: #495e57;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+}
+
+.text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.delivery {
+    background-color: rgb(244, 242, 242);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.delivery h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.delivery-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.rounded-button {
+    background-color: lightgray;
+    color: #495e57;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.rounded-button:hover {
+    background-color: rgb(200, 199, 199)
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.menu-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.menu-details {
+    flex: 1;
+}
+
+.menu-details h3 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.menu-details p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.menu-details p:last-child {
+    font-weight: bold;
+}
+
+.menu-image {
+    flex: 1;
+    text-align: center;
+}
+
+.menu-image img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+.reservation {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.reservation h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.seating-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seating-options label {
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.seating-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+.place-order-button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.place-order-button:hover {
+    background-color: #ff9900;
+}

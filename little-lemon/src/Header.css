@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+}
+
+.shopping-bag {
+    font-size: 24px;
+    cursor: pointer;
+}
